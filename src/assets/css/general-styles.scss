@@ -3,22 +3,26 @@
 
 body {
   font-family: "Roboto", sans-serif;
-  background-color: $color-two;
-}
-
-body ::after {
-  background-color: $color-one;
-  top: 0;
-  right: 0;
-  width: 50%;
-  height: 100%;
-  position: absolute;
-  z-index: -1;
-  content: "";
+  background-image: linear-gradient(
+    to right,
+    $color-two 0%,
+    $color-two 50%,
+    $color-one 50%,
+    $color-one 50%
+  );
 }
 
 main {
   padding: 5em 0;
+}
+
+a {
+  color: $white;
+}
+
+a,
+p {
+  letter-spacing: 0.5em;
 }
 
 p {
@@ -26,7 +30,6 @@ p {
   font-weight: lighter;
   color: $white;
   font-size: 2em;
-  letter-spacing: 0.5em;
 }
 
 /* Extra small devices (phones, 600px and down) */
