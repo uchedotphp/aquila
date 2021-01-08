@@ -19,7 +19,6 @@ nav {
   display: flex;
   justify-content: center;
   align-items: center;
-//   background: chartreuse;
 
   a {
     display: inline-block;
@@ -35,8 +34,7 @@ nav {
   img {
     height: 12em;
     clip-path: circle(40%);
-    margin-right: 0;
-    // margin: 0 5em;
+    // margin-right: 0;
   }
 }
 </style>
